@@ -7,6 +7,7 @@
 //
 
 #import "LJYViewController.h"
+#import <TestPods/HelloWorld.h>
 
 @interface LJYViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HelloWorld *h = [[HelloWorld alloc] init];
+    [h testPrint];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

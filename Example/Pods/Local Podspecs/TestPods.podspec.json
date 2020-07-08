@@ -1,0 +1,22 @@
+{
+  "name": "TestPods",
+  "version": "0.1.0",
+  "summary": "A short description of TestPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YuanGe2016/TestPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YuanGe2016": "lujiayuan@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/YuanGe2016/TestPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestPods/Classes/**/*"
+}
